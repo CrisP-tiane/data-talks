@@ -24,3 +24,4 @@ aws s3api put-object --bucket $BUCKET_NAME --key raw/covid_csv/
 aws s3 cp s3://covid19-lake/enigma-jhu-timeseries/csv/ s3://$BUCKET_NAME/raw/covid_csv/ --recursive --copy-props none
 ```
 
+inserindo nova linha
